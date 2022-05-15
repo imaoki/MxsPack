@@ -54,7 +54,7 @@ Execute `uninstall.ms`.
 <!-- 制限 -->
 
 * String Literals containing newline codes are not supported.
-<!-- 改行コードを含んだ文字列リテラルには非対応。 -->
+  <!-- 改行コードを含んだ文字列リテラルには非対応。 -->
 
 ## License
 <!-- ライセンス -->
