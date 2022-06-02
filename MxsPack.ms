@@ -327,8 +327,8 @@ struct MxsPackStruct (
         and obj.StructName() == #PathUtilityStruct
   ),
 
-  /*- @prop <String> バージョン番号。メジャー、マイナー、パッチの順。 */
-  private version = "1.0.0",
+  /*- @prop <Array[<Integer>]> バージョン番号。メジャー、マイナー、パッチの順。 */
+  private version = #(1, 0, 0),
 
   /*- @returns <Name> */
   public fn StructName = #MxsPackStruct,
@@ -367,7 +367,7 @@ struct MxsPackStruct (
   ),
 
   /*-
-  @returns <String>
+  @returns <Array[<Integer>]>
   */
   public fn GetVersion = (
     this.version
