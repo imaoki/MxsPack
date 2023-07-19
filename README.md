@@ -3,60 +3,60 @@
 <!-- [![GitHub release (latest by date)](https://img.shields.io/github/v/release/imaoki/MxsPack)](https://github.com/imaoki/MxsPack/releases/latest) -->
 [![GitHub](https://img.shields.io/github/license/imaoki/MxsPack)](https://github.com/imaoki/MxsPack/blob/main/LICENSE)
 
-Provides a method to merge multiple script files into one file.
-<!-- 複数のスクリプトファイルを1ファイルに統合するためのメソッドを提供する。 -->
+複数のスクリプトファイルを1ファイルに統合するためのメソッドを提供する。
+<!-- Provides a method to merge multiple script files into one file. -->
 
-## Requirements
-<!-- 要件 -->
+## ライセンス
+<!-- ## License -->
+
+[MIT License](https://github.com/imaoki/MxsPack/blob/main/LICENSE)
+
+## 要件
+<!-- ## Requirements -->
 
 * [imaoki/Standard](https://github.com/imaoki/Standard)
 
-## Development Environment
-<!-- 開発環境 -->
+## 開発環境
+<!-- ## Development Environment -->
 
 `3ds Max 2024`
 
-## Install
-<!-- インストールする -->
+## インストール
+<!-- ## Install -->
 
-01. Dependent scripts should be installed beforehand.
-    <!-- 依存スクリプトは予めインストールしておく。 -->
+01. 依存スクリプトは予めインストールしておく。
+    <!-- 01. Dependent scripts should be installed beforehand. -->
 
-02. Execute `install.ms`.
-    <!-- `install.ms`を実行する。 -->
+02. `install.ms`を実行する。
+    <!-- 02. Execute `install.ms`. -->
 
-## Uninstall
-<!-- アンインストールする -->
+## アンインストール
+<!-- ## Uninstall -->
 
-Execute `uninstall.ms`.
-<!-- `uninstall.ms`を実行する。 -->
+`uninstall.ms`を実行する。
+<!-- Execute `uninstall.ms`. -->
 
-## Standalone version
-<!-- スタンドアローン版 -->
+## 単一ファイル版
+<!-- ## Single File Version -->
 
-### Install
-<!-- インストールする -->
+### インストール
+<!-- ### Install -->
 
-01. Dependent scripts should be installed beforehand.
-    <!-- 依存スクリプトは予めインストールしておく。 -->
+01. 依存スクリプトは予めインストールしておく。
+    <!-- 01. Dependent scripts should be installed beforehand. -->
 
-02. Execute `Distribution\MxsPack.min.ms`.
-    <!-- `Distribution\MxsPack.min.ms`を実行する。 -->
+02. `Distribution\MxsPack.min.ms`を実行する。
+    <!-- 02. Execute `Distribution\MxsPack.min.ms`. -->
 
-### Uninstall
-<!-- アンインストールする -->
+### アンインストール
+<!-- ### Uninstall -->
 
 ```maxscript
 ::MxsPackStruct.Uninstall()
 ```
 
-## Limitations
-<!-- 制限 -->
+## 制限
+<!-- ## Limitations -->
 
-* String Literals containing newline codes are not supported.
-  <!-- 改行コードを含んだ文字列リテラルには非対応。 -->
-
-## License
-<!-- ライセンス -->
-
-[MIT License](https://github.com/imaoki/MxsPack/blob/main/LICENSE)
+* 改行コードを含んだ文字列リテラルには非対応。
+  <!-- * String Literals containing newline codes are not supported. -->
